@@ -28,4 +28,27 @@
 
 #########################################
 
+# 1
+# roti = int(input('Amount of roti: '))
+# price_roti = 30
+# total = roti * price_roti
+# text='บาท'
+# print(f"{total} {text}")
+
+# 2
+# taro = int(input('เผือกทอดจำนวน: '))
+# pork_bread = int(input('ขนมปังหน้าหมูจำนวน: '))
+# taro_price = 30
+# pork_bread_price = 40
+# total = (taro_price * taro) + (pork_bread_price * pork_bread)
+# print(f"{total} บาท")
+
+# 4
+incomeFirst = int(input('รายรับเ้ดือนที่ 1: '))
+expensesFirst = int(input('รายจ่ายเ้ดือนที่ 1: '))
+incomeSecond = int(input('รายรับเ้ดือนที่ 2: '))
+expensesSecond = int(input('รายจ่ายเ้ดือนที่ 2: '))
+profitFirst = incomeFirst - expensesFirst
+profitSecond = incomeSecond - expensesSecond
+print(f'กําไรรวม 2 เดือน = {profitFirst + profitSecond} บาท')
 
