@@ -44,11 +44,26 @@
 # print(f"{total} บาท")
 
 # 4
-incomeFirst = int(input('รายรับเ้ดือนที่ 1: '))
-expensesFirst = int(input('รายจ่ายเ้ดือนที่ 1: '))
-incomeSecond = int(input('รายรับเ้ดือนที่ 2: '))
-expensesSecond = int(input('รายจ่ายเ้ดือนที่ 2: '))
-profitFirst = incomeFirst - expensesFirst
-profitSecond = incomeSecond - expensesSecond
-print(f'กําไรรวม 2 เดือน = {profitFirst + profitSecond} บาท')
+# incomeFirst = int(input('รายรับเ้ดือนที่ 1: '))
+# expensesFirst = int(input('รายจ่ายเ้ดือนที่ 1: '))
+# incomeSecond = int(input('รายรับเ้ดือนที่ 2: '))
+# expensesSecond = int(input('รายจ่ายเ้ดือนที่ 2: '))
+# profitFirst = incomeFirst - expensesFirst
+# profitSecond = incomeSecond - expensesSecond
+# print(f'กําไรรวม 2 เดือน = {profitFirst + profitSecond} บาท')
+
+# 5
+# def mileToKmeter(mile):
+#     return mile*1.6
+
+# distanceMile = int(input('ระยะทางไมล์: '))
+# print(f'{mileToKmeter(distanceMile)} กิโลเมตร')
+
+# 6 
+# def bmi(w, h):
+#     return w/(h/100)**2
+# weight = int(input('กรุณาระบุน้ำหนักของคุณ: '))
+# height = int(input('กรุณาระบุส่วนสูงของคุณ: '))
+# print(f'น้ําหนัก {weight} กิโลกรัม, ส่วนสูง {height/100} เมตร')
+# print(f'BMI = {round(bmi(weight, height), 2)}') # ทศนิยม 2 ตำแหน่ง round()
 
