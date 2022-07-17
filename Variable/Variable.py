@@ -28,14 +28,14 @@
 
 #########################################
 
-# 1
+# 1 roti
 # roti = int(input('Amount of roti: '))
 # price_roti = 30
 # total = roti * price_roti
 # text='บาท'
 # print(f"{total} {text}")
 
-# 2
+# 2 taro and pork bread
 # taro = int(input('เผือกทอดจำนวน: '))
 # pork_bread = int(input('ขนมปังหน้าหมูจำนวน: '))
 # taro_price = 30
@@ -43,7 +43,7 @@
 # total = (taro_price * taro) + (pork_bread_price * pork_bread)
 # print(f"{total} บาท")
 
-# 4
+# 4 income-expenses
 # incomeFirst = int(input('รายรับเ้ดือนที่ 1: '))
 # expensesFirst = int(input('รายจ่ายเ้ดือนที่ 1: '))
 # incomeSecond = int(input('รายรับเ้ดือนที่ 2: '))
@@ -52,14 +52,14 @@
 # profitSecond = incomeSecond - expensesSecond
 # print(f'กําไรรวม 2 เดือน = {profitFirst + profitSecond} บาท')
 
-# 5
+# 5 Mile to kelometer
 # def mileToKmeter(mile):
 #     return mile*1.6
 
 # distanceMile = int(input('ระยะทางไมล์: '))
 # print(f'{mileToKmeter(distanceMile)} กิโลเมตร')
 
-# 6 
+# 6 BMI
 # def bmi(w, h):
 #     return w/(h/100)**2
 # weight = int(input('กรุณาระบุน้ำหนักของคุณ: '))
@@ -67,3 +67,11 @@
 # print(f'น้ําหนัก {weight} กิโลกรัม, ส่วนสูง {height/100} เมตร')
 # print(f'BMI = {round(bmi(weight, height), 2)}') # ทศนิยม 2 ตำแหน่ง round()
 
+# 7 คํานวณเปอร์เซ็นต์ของนักเรียนที่สอบผ่าน และสอบตกจากนักเรียนทั้งหมดในห้อง
+# def gradePercantage(total, totalPass):
+#     return 100*totalPass/total
+
+# student = int(input('จำนวนนักเรียนทั้งหมด: '))
+# passStudent = int(input('จำนวนนักเรียนที่สอบผ่าน: '))
+# print(f'เปอร์เซ็นต์สอบผ่าน = {round(gradePercantage(student, passStudent))}')
+# print(f'เปอร์เซ็นต์สอบตก = {round(100 - gradePercantage(student, passStudent))}')
