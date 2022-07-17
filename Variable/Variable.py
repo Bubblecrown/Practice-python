@@ -75,3 +75,15 @@
 # passStudent = int(input('จำนวนนักเรียนที่สอบผ่าน: '))
 # print(f'เปอร์เซ็นต์สอบผ่าน = {round(gradePercantage(student, passStudent))}')
 # print(f'เปอร์เซ็นต์สอบตก = {round(100 - gradePercantage(student, passStudent))}')
+
+# 10 คํานวณหาค่าเฉลี่ยจากตัวเลขทั้งหมด 4 ตัวเลข
+listInput = [int(item) for item in input('Enter numbers: ').split()]
+total = 0
+for i in listInput:
+    total = i + total
+
+print(f'ตัวเลขได้แก่ {listInput}')
+print(f'ค่าเฉลี่ย = {total/len(listInput)}')
+
+
+
