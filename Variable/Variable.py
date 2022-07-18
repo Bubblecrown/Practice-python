@@ -77,13 +77,18 @@
 # print(f'เปอร์เซ็นต์สอบตก = {round(100 - gradePercantage(student, passStudent))}')
 
 # 10 คํานวณหาค่าเฉลี่ยจากตัวเลขทั้งหมด 4 ตัวเลข
-listInput = [int(item) for item in input('Enter numbers: ').split()]
-total = 0
-for i in listInput:
-    total = i + total
+# listInput = [int(item) for item in input('Enter numbers: ').split()]
+# total = 0
+# for i in listInput:
+#     total = i + total
 
-print(f'ตัวเลขได้แก่ {listInput}')
-print(f'ค่าเฉลี่ย = {total/len(listInput)}')
+# print(f'ตัวเลขได้แก่ {listInput}')
+# print(f'ค่าเฉลี่ย = {total/len(listInput)}')
 
-
-
+# 11 คํานวณพลังโจมตีปกติ (Normal damage) และพลังโจมตีติดคริ (Critical damage)
+# โดยพลังโจมตีติดคริ คือ 1.5 เท่าของพลังโจมตีปกติ
+# ซึ่งพลังโจมตีปกตินั้นได้มาจากพลังโจมตีของฮีโร่หักลบกับพลังป้องกันของศัตรู
+hero_damage = int(input('พลังโจมตีของฮีโร่: '))
+enemy_guard = int(input('พลังป้องกันของศัตรู: '))
+print(f'พลังโจมตี {hero_damage}, พลังป้องกัน {enemy_guard}')
+print(f'พลังโจมตีปกติ = {hero_damage - enemy_guard}, พลังโจมตีติดคริ = {(hero_damage - enemy_guard)*1.5}')
