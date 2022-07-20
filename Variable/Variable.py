@@ -99,14 +99,23 @@
 # - จํานวน HP MP ที่จะเพิ่มขึ้นในแต่ละเลเวล
 # - เลเวลของฮีโร่
 
-hp = int(input('HP เริ่มต้น: '))
-mp = int(input('MP เริ่มต้น: '))
-hp_up = int(input('จํานวน HP ที่จะเพิ่มขึ้นในแต่ละเลเวล '))
-mp_up = int(input('จํานวน MP ที่จะเพิ่มขึ้นในแต่ละเลเวล '))
-level_hero = int(input('เลเวลของฮีโร่: '))
+# hp = int(input('HP เริ่มต้น: '))
+# mp = int(input('MP เริ่มต้น: '))
+# hp_up = int(input('จํานวน HP ที่จะเพิ่มขึ้นในแต่ละเลเวล '))
+# mp_up = int(input('จํานวน MP ที่จะเพิ่มขึ้นในแต่ละเลเวล '))
+# level_hero = int(input('เลเวลของฮีโร่: '))
 
-print(f'เริ่มต้น HP = {hp}, MP = {mp}')
-print(f'แต่ละเลเวล HP เพิ่มทีละ {hp_up}, MP เพิ่มทีละ {mp_up}')
-print(f'เลเวล {level_hero}')
-print(f'HP = {hp + (hp_up*(level_hero - 1))}, MP = {mp + (mp_up*(level_hero - 1))}')
+# print(f'เริ่มต้น HP = {hp}, MP = {mp}')
+# print(f'แต่ละเลเวล HP เพิ่มทีละ {hp_up}, MP เพิ่มทีละ {mp_up}')
+# print(f'เลเวล {level_hero}')
+# print(f'HP = {hp + (hp_up*(level_hero - 1))}, MP = {mp + (mp_up*(level_hero - 1))}')
 
+# 13 สลับค่าที่อยู่ในตัวแปร a และ b แล้วค่อยแสดงผลลัพธ์ที่สลับแล้วออกมาจากตัวแปรทั้งสองตัว
+
+a = int(input('a: '))
+b = int(input('b: '))
+box = 0
+box = b
+b = a
+a = box
+print(f'a = {a}, b = {b}')
