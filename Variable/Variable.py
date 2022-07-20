@@ -112,10 +112,16 @@
 
 # 13 สลับค่าที่อยู่ในตัวแปร a และ b แล้วค่อยแสดงผลลัพธ์ที่สลับแล้วออกมาจากตัวแปรทั้งสองตัว
 
-a = int(input('a: '))
-b = int(input('b: '))
-box = 0
-box = b
-b = a
-a = box
-print(f'a = {a}, b = {b}')
+# a = int(input('a: '))
+# b = int(input('b: '))
+# box = 0
+# box = b
+# b = a
+# a = box
+# print(f'a = {a}, b = {b}')
+
+# 14 หาค่า Square root ของตัวเลข
+import math
+a = int(input('Number: '))
+print(f'ตัวเลข {a}')
+print(f'Square root ของ {a} = {math.sqrt(a)}')

@@ -1,1 +1,1 @@
-    print(total)
+math.sqrt(a)
