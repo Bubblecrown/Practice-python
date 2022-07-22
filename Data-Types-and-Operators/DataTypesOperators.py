@@ -4,7 +4,18 @@
 # สอบผ่าน (คน) : 28
 # สอบผ่าน 70 %
 
+# import math
+# std:int = int(input('นักเรียนทั้งหมด (คน) : '))
+# std_pass:int = int(input('สอบผ่าน (คน) : '))
+# print(f'สอบผ่าน {math.floor((100 * std_pass) / std)} %')
+
+# 3. คํานวณความยาวด้านตรงข้ามมุมฉากของสามเหลี่ยมมุมฉาก โดยเราจะกรอกข้อมูลความยาวด้าน a กับ b มาให้โปรแกรมใช้ต่อ (รับค่าเป็นเลขทศนิยม) โดยสมการความสัมพันธ์ของความยาวด้านสามเหลี่ยมมุมฉากคือ c^2 = a^2 + b^2 ซึ่ง c คือความยาวด้านตรงข้ามมุมฉาก
+
+# a : 3
+# b : 4
+# c = 5
+
 import math
-std:int = int(input('นักเรียนทั้งหมด (คน) : '))
-std_pass:int = int(input('สอบผ่าน (คน) : '))
-print(f'สอบผ่าน {math.floor((100 * std_pass) / std)} %')
+a:float = float(input('a : '))
+b:float = float(input('b : '))
+print(f'c = {math.floor(math.sqrt(a**2 + b**2))}')
