@@ -15,7 +15,15 @@
 # b : 4
 # c = 5
 
-import math
-a:float = float(input('a : '))
-b:float = float(input('b : '))
-print(f'c = {math.floor(math.sqrt(a**2 + b**2))}')
+# import math
+# a:float = float(input('a : '))
+# b:float = float(input('b : '))
+# print(f'c = {math.floor(math.sqrt(a**2 + b**2))}')
+
+# 6. คํานวณปริมาตรทรงลูกบาศก์โดยเราจะกรอกความยาวด้าน มาให้โปรแกรมใช้ต่อ
+# ตัวอย่างผลลัพธ์
+# ความยาวด้าน : 4
+# ปริมาตรทรงลูกบาศก์ = 64
+
+side_length:int = int(input('ความยาวด้าน : '))
+print(f'ปริมาตรทรงลูกบาศก์ = {side_length ** 3}')
