@@ -34,7 +34,19 @@
 # อายุ : 25
 # คุณ ศักรินทร์ , เข้าเล่นแอพได้ = True
 
-name_user = input('ชื่อ : ')
-age_user = int(input('อายุ : '))
-pass_user = "true" if age_user > 18 else "false" 
-print(f'คุณ {name_user} , เข้าเล่นแอพได้ = {pass_user}')
+# name_user = input('ชื่อ : ')
+# age_user = int(input('อายุ : '))
+# pass_user = "true" if age_user > 18 else "false" 
+# print(f'คุณ {name_user} , เข้าเล่นแอพได้ = {pass_user}')
+
+# 9. ตรวจสอบชนิดยานพาหนะว่ามีในโชว์รูมรึป่าว ยานพาหนะที่มีในโชว์รูมได้แก่ “รถยนต์” , “มอเตอร์ไซค์” , “สิบล้อ” โดยเราจะกรอกข้อมูลชื่อยานพาหนะมาให้โปรแกรมใช้ต่อ
+
+# สนใจคันไหน : สิบล้อ
+# ผลการตรวจสอบ = True
+
+# สนใจคันไหน : มอเตอร์ไซร้
+# ผลการตรวจสอบ = False
+
+car_name = input('สนใจคันไหน : ')
+result = car_name == 'รถยนต์' or car_name ==  'มอเตอร์ไซค์' or car_name == 'สิบล้อ'
+print(f'ผลการตรวจสอบ = {result}')
