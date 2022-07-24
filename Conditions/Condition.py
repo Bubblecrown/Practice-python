@@ -11,11 +11,27 @@
 # สะกดวันจันทร์ไม่ถูกต้อง
 # สะกดวันพฤหัสถูกต้อง
 
-monday = input('Monday ภาษาไทย: ')
-thursday = input('Thursday ภาษาไทย: ')
-result_monday = 'สะกดวันจันทร์ถูกต้อง' if monday == 'วันจันทร์' else 'สะกดวันจันทร์ไม่ถูกต้อง'
-result_thursday = 'สะกดวันพฤหัสถูกต้อง' if monday == 'วันจันทร์' else 'สะกดวันพฤหัสไม่ถูกต้อง'
-print(f'Monday ภาษาไทย: {monday}')
-print(f'Thursday ภาษาไทย: {thursday}')
-print(f'{result_monday}')
-print(f'{result_thursday}')
+# monday = input('Monday ภาษาไทย: ')
+# thursday = input('Thursday ภาษาไทย: ')
+# result_monday = 'สะกดวันจันทร์ถูกต้อง' if monday == 'วันจันทร์' else 'สะกดวันจันทร์ไม่ถูกต้อง'
+# result_thursday = 'สะกดวันพฤหัสถูกต้อง' if monday == 'วันจันทร์' else 'สะกดวันพฤหัสไม่ถูกต้อง'
+# print(f'Monday ภาษาไทย: {monday}')
+# print(f'Thursday ภาษาไทย: {thursday}')
+# print(f'{result_monday}')
+# print(f'{result_thursday}')
+
+# 2. คํานวณค่า x ลบ y ถ้าหาก x มีค่ามากกว่า y และ y มีค่ามากกว่า 0 โดยเราจะกรอกค่า x, y มาให้โปรแกรมใช้ต่อ
+
+# ตัวอย่างผลลัพธ์
+# Enter x : 4
+# Enter y : 3
+# x - y = 1
+
+x = int(input('Enter x: '))
+y = int(input('Enter y: '))
+print('Enter x: {x}')
+print('Enter y: {y}')
+if x  > y and y > 0:
+    print(f'x - y = {x - y}')
+else:
+    print('ป้อนข้อมูลไม่ถูกต้อง')
