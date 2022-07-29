@@ -27,11 +27,29 @@
 # Enter y : 3
 # x - y = 1
 
-x = int(input('Enter x: '))
-y = int(input('Enter y: '))
-print('Enter x: {x}')
-print('Enter y: {y}')
-if x  > y and y > 0:
-    print(f'x - y = {x - y}')
+# x = int(input('Enter x: '))
+# y = int(input('Enter y: '))
+# print('Enter x: {x}')
+# print('Enter y: {y}')
+# if x  > y and y > 0:
+#     print(f'x - y = {x - y}')
+# else:
+#     print('ป้อนข้อมูลไม่ถูกต้อง')
+
+# 3. คํานวณค่า x หาร y ถ้าหาก y ไม่ใช่ 0 กับ 1 โดยเราจะกรอกค่า x, y มาให้โปรแกรมใช้ต่อ
+# ตัวอย่างผลลัพธ์
+# Enter x : 9.6
+# Enter y : 2.4
+# x / y = 4
+
+x = float(input('Enter x: '))
+y = float(input('Enter y: '))
+# result = x/y if y!=0 and y!=1 else "Please enter a valid value"
+# print(f'Enter x: {x}')
+# print(f'Enter y: {y}')
+# print(f'x / y = {result}')
+
+if y!=0 and y!=1:
+    print(f'x / y = {x/y}')
 else:
-    print('ป้อนข้อมูลไม่ถูกต้อง')
+    print('Please enter a valid value')
