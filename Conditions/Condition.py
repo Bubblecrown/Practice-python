@@ -42,14 +42,31 @@
 # Enter y : 2.4
 # x / y = 4
 
-x = float(input('Enter x: '))
-y = float(input('Enter y: '))
-# result = x/y if y!=0 and y!=1 else "Please enter a valid value"
-# print(f'Enter x: {x}')
-# print(f'Enter y: {y}')
-# print(f'x / y = {result}')
+# x = float(input('Enter x: '))
+# y = float(input('Enter y: '))
+# # result = x/y if y!=0 and y!=1 else "Please enter a valid value"
+# # print(f'Enter x: {x}')
+# # print(f'Enter y: {y}')
+# # print(f'x / y = {result}')
 
-if y!=0 and y!=1:
-    print(f'x / y = {x/y}')
-else:
-    print('Please enter a valid value')
+# if y!=0 and y!=1:
+#     print(f'x / y = {x/y}')
+# else:
+#     print('Please enter a valid value')
+
+# 6. ตรวจสอบว่ามีคําสั่งที่เรากรอกเข้ามา อยู่ในระบบโปรแกรมของเรารึป่าว โดยคําสั่งที่อยู่ในระบบโปรแกรมของเราได้แก่ “open”, “close”, “list”
+# ตัวอย่างผลลัพธ์
+# กรุณากรอกคําสั่ง : list
+# มีคําสั่งนี้ในระบบ
+
+func_program = ["open", "close", "list"]
+while(True):
+    inp = input("กรุณากรอกคําสั่ง: ").lower()
+    if(inp == "end"):
+        break
+    elif (inp in func_program):
+        print("มีคําสั่งนี้ในระบบ")
+    else:
+        print("ไม่มีคําสั่งนี้ในระบบ")
+
+
